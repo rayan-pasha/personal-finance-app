@@ -4,8 +4,8 @@ export const Auth = () => {
     return (
     <div className="sign-in-container">
         <SignedOut>
-            <SignUpButton />
-            <SignInButton />
+            <SignUpButton mode="modal" />
+            <SignInButton  mode="modal"/>
         </SignedOut>
         <SignedIn>
             <UserButton />
